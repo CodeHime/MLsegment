@@ -14,7 +14,7 @@ use some other models like unimodal model, MOG, Kernel , CB, etc. for separating
   &emsp;&emsp; 1401035  - Krima Doshi  
   &emsp;&emsp; 1401061 - Maharshi Bhavsar  
  
-####Introduction 
+#### Introduction 
 Foreground-background segmentation is required when
 motion of objects need to be detected. The moving objects
 can be considered as foreground and the stationary objects
@@ -33,7 +33,7 @@ time video sequence in which objects(Human) or the camera
 maybe moving according to 3D path. Optical flow provides
 visual perception.
 
-####Optical Flow 
+#### Optical Flow 
 Optical flow is implemented by studying the velocity of
 objects. The velocity is related to the space-time image
 derivatives at one image location using an equation often called the gradient constraint equation. n. If one has access
@@ -41,7 +41,7 @@ to only two frames, or cannot estimate It, it is straightforward
 to derive a closely related gradient constraint, in which It(x,
 t) in is replaced by I(x, t) I(x, t + 1) I(x, t).
 
-####The Algorithm 
+#### The Algorithm 
 The Algorithm
 Optical flow can be implemented by following the below
 mentioned steps:
